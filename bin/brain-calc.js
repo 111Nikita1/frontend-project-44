@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import runGame from '../src/index.js';
-import { description, generateRound } from '../games/calc.js';
+import runGame from '../src/index.js'
+import { description, generateRound } from '../games/calc.js'
 
-runGame(description, generateRound);
+runGame(description, generateRound)
